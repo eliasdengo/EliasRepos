@@ -1,0 +1,1 @@
+after oprateing systwm change re install git and configure
