@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadTextFileActivity">
+
+    <Button
+        android:id="@+id/ReadFromFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/read_from_file" />
+
+    <EditText
+        android:id="@+id/txtFileContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Name"
+        tools:ignore="HardcodedText,LabelFor" />
+</LinearLayout>

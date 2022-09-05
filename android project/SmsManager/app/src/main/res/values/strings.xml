@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sms Manager</string>
+    <string name="Desination" />
+    <string name="Message" />
+    <string name="Send" />
+    <string name="Clear" />
+    <string name="textview">TextView</string>
+    <string name="send">Send</string>
+    <string name="clear">Clear</string>
+    <string name="desination">Desination</string>
+    <string name="message">Message</string>
+</resources>

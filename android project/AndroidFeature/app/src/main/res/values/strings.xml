@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android Feature</string>
+    <string name="audio_play">Audio Play</string>
+    <string name="preference">Preference</string>
+    <string name="username">UserName</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember</string>
+    <string name="login">Login</string>
+    <string name="load_image">Load Image</string>
+    <string name="play_video">Play Video</string>
+    <string name="todo">TODO</string>
+    <string name="loading_image">Loading Image</string>
+    <string name="video_play">Video Play</string>
+    <string name="read_from_file">Read From File</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnsound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/audio_play"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/btnprefe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preference"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnloadimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/load_image"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnplayvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_video"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnsplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="splash"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnreadfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read From File"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BottomNavigationBar</string>
+    <string name="title_activity_bottomnavbar">Bottomnavbar</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="search">Search</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="fovrite_fragment">Fovrite Fragment</string>
+    <string name="search_fragment">Search Fragment</string>
+</resources>

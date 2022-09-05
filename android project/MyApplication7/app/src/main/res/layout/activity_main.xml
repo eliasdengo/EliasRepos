@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        android:textColor="@color/blacks"
+        android:textSize="20sp"
+        android:paddingBottom="20dp"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        android:autofillHints=""
+        android:inputType="textAutoComplete"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    <TextView
+       android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/blacks"
+        android:textSize="20sp"
+        android:paddingBottom="20dp"/>
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        android:autofillHints=""
+        android:inputType="textAutoComplete"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textColor="@color/blacks"
+        android:textSize="30sp"
+        android:paddingBottom="30dp"/>
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        android:autofillHints=""
+        android:inputType="textAutoComplete"
+        tools:ignore="LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="20dp"
+            android:text="@string/add"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold"
+
+            tools:ignore="ButtonStyle,RtlSymmetry,SmallSp,SpUsage"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/delete"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="30dp"
+            android:text="@string/delete"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlSymmetry,SmallSp" />
+
+        <Button
+            android:id="@+id/update"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="30dp"
+            android:text="@string/update"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            tools:ignore="RtlSymmetry,SmallSp" />
+
+    </LinearLayout>
+
+</LinearLayout>

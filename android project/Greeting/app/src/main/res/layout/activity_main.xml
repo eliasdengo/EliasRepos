@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_width="fill_parent"
+    >
+
+    <TextView
+        android:id="@+id/lblname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="@string/enter_your_name"
+        />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:autofillHints="name"/>
+
+    <Button
+        android:id="@+id/btnsay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="sayHello"
+        android:layout_margin="20dp"
+        android:text="@string/sayhello"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/lblhello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text=""
+        />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Samplenav</string>
+    <string name="send_sms">Send Sms</string>
+    <string name="make_call">Make Call</string>
+    <string name="local_storage">Local Storage</string>
+    <string name="phone">Phone</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="call">Call</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="amharic">Amharic</string>
+    <string name="english">English</string>
+    <string name="save_setting">Save Setting</string>
+</resources>

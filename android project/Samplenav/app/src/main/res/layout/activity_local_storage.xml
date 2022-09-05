@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LocalStorage">
+
+    <RadioGroup
+        android:id="@+id/rdgsetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdAmharic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/amharic" />
+
+        <RadioButton
+            android:id="@+id/rdEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/english" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnsetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_setting" />
+</LinearLayout>

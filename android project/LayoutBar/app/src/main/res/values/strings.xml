@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LayoutBar</string>
+    <string name="todo">TODO</string>
+    <string name="navigation_drawer_example">Navigation Drawer Example</string>
+    <string name="about">About</string>
+    <string name="collection">Collection</string>
+    <string name="inbox">Inbox</string>
+    <string name="notification">Notification</string>
+    <string name="order">Order</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Setting</string>
+    <string name="support">Support</string>
+    <string name="elias_dengo">Elias Dengo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
