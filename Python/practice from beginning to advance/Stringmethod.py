@@ -1,0 +1,1 @@
+#strip()-remove unwanted space from beginning and ending

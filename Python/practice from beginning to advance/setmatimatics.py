@@ -1,0 +1,15 @@
+a={2,3,8,0,40,9}
+b={12,7,8,90,9}
+print(a.union(b))
+print(b.union(a))
+print(a|b);
+print(a&b);
+print(a.intersection(b))
+print(b.intersection(a))
+print(a-b)
+print(a.difference(b))
+print(b.difference(a))
+print(b-a)
+print(a^b)
+print(a.symmetric_difference(b))
+print(b.symmetric_difference(a))
