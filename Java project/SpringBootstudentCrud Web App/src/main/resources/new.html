@@ -1,0 +1,46 @@
+<!DO<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>crud</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>crud</title>
+</head>
+<body>
+    <div>
+        <h1>Spring Boot CRUD System- Student Registration</h1>
+    </div>
+    <div><a th:href="@{'/new'}">Add New</a></div>
+    <div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead class='thead-dark'>
+                    <tr>
+                        <th>Student Id</th>
+                        <th>Student Name</th>
+                        <th>Course</th>
+                        <th>Fee</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="student:${liststudent}">
+                        <td th:text="${student.id}">Student Id</td>
+                        <td th:text="${student.studentname}">Student Name</td>
+                        <td th:text="${student.course}">Course</td>
+                        <td th:text="${student.fee}">Fee</td>
+                        <td th:href="@{'/edit/'}+${student.id}">Edit</td>
+                        <td th:href="@{'/delete/'}+${student.id}">Delete</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
